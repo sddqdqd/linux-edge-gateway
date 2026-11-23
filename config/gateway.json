@@ -1,0 +1,18 @@
+{
+  "server": {
+    "listen_ip": "0.0.0.0",
+    "listen_port": 9000,
+    "worker_threads": 4,
+    "heartbeat_timeout_sec": 30,
+    "max_connections": 128
+  },
+  "log": {
+    "level": "INFO",
+    "file_path": "./logs/gateway.log",
+    "enable_console": true
+  },
+  "hal": {
+    "thermal_sysfs_path": "/sys/class/thermal/thermal_zone0/temp",
+    "led_sysfs_path": "/sys/class/leds/red/brightness"
+  }
+}

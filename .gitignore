@@ -1,0 +1,28 @@
+# Build outputs
+build/
+build-arm/
+build-x86/
+cmake-build-*/
+
+# Object & binary files
+*.o
+*.obj
+*.a
+*.so
+*.out
+*.exe
+core
+core.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs & runtime data
+logs/
+*.log
+*.db
+*.pid
